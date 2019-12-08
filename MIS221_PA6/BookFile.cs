@@ -7,14 +7,12 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System.Net.Http;
 
-namespace Book_App
+namespace MIS221_PA6
 {
     class BookFile
     {
         public static List<Book> GetAllBooks(string cwid)
         {
-
-
             //URL
             string url = @"http://lucas-swami-api.herokuapp.com/books/" + cwid;
 
@@ -30,11 +28,7 @@ namespace Book_App
 
                 return myBooks;
             }
-
-
-
         }
-
         public static void SaveBook(Book myBook, string cwid, string mode)
         {
             var content = new StringContent(JsonConvert.SerializeObject(myBook).ToString(), Encoding.UTF8, "application/json");
@@ -60,8 +54,6 @@ namespace Book_App
                 {
                     var response = httpClient.PostAsync(new Uri(url), content).Result;
                 }
-
-
             }
         }
 
@@ -77,6 +69,5 @@ namespace Book_App
 
             }
         }
-
     }
 }
