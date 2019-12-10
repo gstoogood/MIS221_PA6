@@ -55,172 +55,198 @@
             // 
             this.lblTitle.AutoSize = true;
             this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitle.Location = new System.Drawing.Point(244, 2);
+            this.lblTitle.Location = new System.Drawing.Point(366, 3);
+            this.lblTitle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(38, 20);
+            this.lblTitle.Size = new System.Drawing.Size(61, 29);
             this.lblTitle.TabIndex = 0;
             this.lblTitle.Text = "Title";
             this.lblTitle.Click += new System.EventHandler(this.LblTitle_Click);
             // 
             // txtTitleData
             // 
-            this.txtTitleData.Location = new System.Drawing.Point(248, 25);
+            this.txtTitleData.Location = new System.Drawing.Point(372, 38);
+            this.txtTitleData.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtTitleData.Name = "txtTitleData";
-            this.txtTitleData.Size = new System.Drawing.Size(149, 20);
+            this.txtTitleData.Size = new System.Drawing.Size(222, 26);
             this.txtTitleData.TabIndex = 1;
             // 
             // txtAuthorData
             // 
-            this.txtAuthorData.Location = new System.Drawing.Point(248, 68);
+            this.txtAuthorData.Location = new System.Drawing.Point(372, 105);
+            this.txtAuthorData.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtAuthorData.Name = "txtAuthorData";
-            this.txtAuthorData.Size = new System.Drawing.Size(149, 20);
+            this.txtAuthorData.Size = new System.Drawing.Size(222, 26);
             this.txtAuthorData.TabIndex = 3;
             // 
             // lblAuthor
             // 
             this.lblAuthor.AutoSize = true;
             this.lblAuthor.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAuthor.Location = new System.Drawing.Point(244, 45);
+            this.lblAuthor.Location = new System.Drawing.Point(366, 69);
+            this.lblAuthor.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblAuthor.Name = "lblAuthor";
-            this.lblAuthor.Size = new System.Drawing.Size(57, 20);
+            this.lblAuthor.Size = new System.Drawing.Size(82, 29);
             this.lblAuthor.TabIndex = 2;
             this.lblAuthor.Text = "Author";
             // 
             // txtGenreData
             // 
-            this.txtGenreData.Location = new System.Drawing.Point(248, 111);
+            this.txtGenreData.Location = new System.Drawing.Point(372, 171);
+            this.txtGenreData.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtGenreData.Name = "txtGenreData";
-            this.txtGenreData.Size = new System.Drawing.Size(149, 20);
+            this.txtGenreData.Size = new System.Drawing.Size(222, 26);
             this.txtGenreData.TabIndex = 5;
             // 
             // lblGenre
             // 
             this.lblGenre.AutoSize = true;
             this.lblGenre.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGenre.Location = new System.Drawing.Point(244, 88);
+            this.lblGenre.Location = new System.Drawing.Point(366, 135);
+            this.lblGenre.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblGenre.Name = "lblGenre";
-            this.lblGenre.Size = new System.Drawing.Size(54, 20);
+            this.lblGenre.Size = new System.Drawing.Size(80, 29);
             this.lblGenre.TabIndex = 4;
             this.lblGenre.Text = "Genre";
             // 
             // txtCopiesData
             // 
-            this.txtCopiesData.Location = new System.Drawing.Point(248, 155);
+            this.txtCopiesData.Location = new System.Drawing.Point(372, 238);
+            this.txtCopiesData.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtCopiesData.Name = "txtCopiesData";
-            this.txtCopiesData.Size = new System.Drawing.Size(149, 20);
+            this.txtCopiesData.Size = new System.Drawing.Size(222, 26);
             this.txtCopiesData.TabIndex = 7;
             // 
             // lblCopies
             // 
             this.lblCopies.AutoSize = true;
             this.lblCopies.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCopies.Location = new System.Drawing.Point(244, 132);
+            this.lblCopies.Location = new System.Drawing.Point(366, 203);
+            this.lblCopies.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCopies.Name = "lblCopies";
-            this.lblCopies.Size = new System.Drawing.Size(125, 20);
+            this.lblCopies.Size = new System.Drawing.Size(194, 29);
             this.lblCopies.TabIndex = 6;
             this.lblCopies.Text = "Copies Available";
             // 
             // txtISBNData
             // 
-            this.txtISBNData.Location = new System.Drawing.Point(248, 198);
+            this.txtISBNData.Location = new System.Drawing.Point(372, 305);
+            this.txtISBNData.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtISBNData.Name = "txtISBNData";
-            this.txtISBNData.Size = new System.Drawing.Size(149, 20);
+            this.txtISBNData.Size = new System.Drawing.Size(222, 26);
             this.txtISBNData.TabIndex = 9;
             // 
             // lblISBN
             // 
             this.lblISBN.AutoSize = true;
             this.lblISBN.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblISBN.Location = new System.Drawing.Point(244, 175);
+            this.lblISBN.Location = new System.Drawing.Point(366, 269);
+            this.lblISBN.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblISBN.Name = "lblISBN";
-            this.lblISBN.Size = new System.Drawing.Size(47, 20);
+            this.lblISBN.Size = new System.Drawing.Size(69, 29);
             this.lblISBN.TabIndex = 8;
             this.lblISBN.Text = "ISBN";
             // 
             // txtLengthData
             // 
-            this.txtLengthData.Location = new System.Drawing.Point(248, 242);
+            this.txtLengthData.Location = new System.Drawing.Point(372, 372);
+            this.txtLengthData.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtLengthData.Name = "txtLengthData";
-            this.txtLengthData.Size = new System.Drawing.Size(149, 20);
+            this.txtLengthData.Size = new System.Drawing.Size(222, 26);
             this.txtLengthData.TabIndex = 11;
             // 
             // lblLength
             // 
             this.lblLength.AutoSize = true;
             this.lblLength.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblLength.Location = new System.Drawing.Point(244, 219);
+            this.lblLength.Location = new System.Drawing.Point(366, 337);
+            this.lblLength.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblLength.Name = "lblLength";
-            this.lblLength.Size = new System.Drawing.Size(59, 20);
+            this.lblLength.Size = new System.Drawing.Size(86, 29);
             this.lblLength.TabIndex = 10;
             this.lblLength.Text = "Length";
             // 
             // lstBooks
             // 
             this.lstBooks.FormattingEnabled = true;
-            this.lstBooks.Location = new System.Drawing.Point(28, 2);
+            this.lstBooks.ItemHeight = 20;
+            this.lstBooks.Location = new System.Drawing.Point(42, 3);
+            this.lstBooks.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.lstBooks.Name = "lstBooks";
-            this.lstBooks.Size = new System.Drawing.Size(197, 251);
+            this.lstBooks.Size = new System.Drawing.Size(294, 384);
             this.lstBooks.TabIndex = 12;
             this.lstBooks.SelectedIndexChanged += new System.EventHandler(this.LstBooks_SelectedIndexChanged);
             // 
             // pbCover
             // 
-            this.pbCover.Location = new System.Drawing.Point(442, 2);
+            this.pbCover.Location = new System.Drawing.Point(663, 3);
+            this.pbCover.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pbCover.Name = "pbCover";
-            this.pbCover.Size = new System.Drawing.Size(184, 251);
+            this.pbCover.Size = new System.Drawing.Size(276, 386);
             this.pbCover.TabIndex = 13;
             this.pbCover.TabStop = false;
             // 
             // btnRent
             // 
-            this.btnRent.Location = new System.Drawing.Point(442, 268);
+            this.btnRent.Location = new System.Drawing.Point(663, 412);
+            this.btnRent.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnRent.Name = "btnRent";
-            this.btnRent.Size = new System.Drawing.Size(89, 34);
+            this.btnRent.Size = new System.Drawing.Size(134, 52);
             this.btnRent.TabIndex = 14;
             this.btnRent.Text = "RENT";
             this.btnRent.UseVisualStyleBackColor = true;
+            this.btnRent.Click += new System.EventHandler(this.BtnRent_Click);
             // 
             // btnReturn
             // 
-            this.btnReturn.Location = new System.Drawing.Point(537, 268);
+            this.btnReturn.Location = new System.Drawing.Point(806, 412);
+            this.btnReturn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnReturn.Name = "btnReturn";
-            this.btnReturn.Size = new System.Drawing.Size(89, 34);
+            this.btnReturn.Size = new System.Drawing.Size(134, 52);
             this.btnReturn.TabIndex = 15;
             this.btnReturn.Text = "RETURN";
             this.btnReturn.UseVisualStyleBackColor = true;
+            this.btnReturn.Click += new System.EventHandler(this.BtnReturn_Click);
             // 
             // btnNew
             // 
-            this.btnNew.Location = new System.Drawing.Point(24, 268);
+            this.btnNew.Location = new System.Drawing.Point(36, 412);
+            this.btnNew.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnNew.Name = "btnNew";
-            this.btnNew.Size = new System.Drawing.Size(89, 34);
+            this.btnNew.Size = new System.Drawing.Size(134, 52);
             this.btnNew.TabIndex = 16;
             this.btnNew.Text = "NEW";
             this.btnNew.UseVisualStyleBackColor = true;
+            this.btnNew.Click += new System.EventHandler(this.BtnNew_Click);
             // 
             // btnEdit
             // 
-            this.btnEdit.Location = new System.Drawing.Point(119, 268);
+            this.btnEdit.Location = new System.Drawing.Point(178, 412);
+            this.btnEdit.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnEdit.Name = "btnEdit";
-            this.btnEdit.Size = new System.Drawing.Size(89, 34);
+            this.btnEdit.Size = new System.Drawing.Size(134, 52);
             this.btnEdit.TabIndex = 17;
             this.btnEdit.Text = "EDIT";
             this.btnEdit.UseVisualStyleBackColor = true;
+            this.btnEdit.Click += new System.EventHandler(this.BtnEdit_Click);
             // 
             // btnDLT
             // 
-            this.btnDLT.Location = new System.Drawing.Point(214, 268);
+            this.btnDLT.Location = new System.Drawing.Point(321, 412);
+            this.btnDLT.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnDLT.Name = "btnDLT";
-            this.btnDLT.Size = new System.Drawing.Size(89, 34);
+            this.btnDLT.Size = new System.Drawing.Size(134, 52);
             this.btnDLT.TabIndex = 18;
             this.btnDLT.Text = "DELETE";
             this.btnDLT.UseVisualStyleBackColor = true;
+            this.btnDLT.Click += new System.EventHandler(this.BtnDLT_Click);
             // 
             // btnClose
             // 
-            this.btnClose.Location = new System.Drawing.Point(308, 268);
+            this.btnClose.Location = new System.Drawing.Point(462, 412);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(89, 34);
+            this.btnClose.Size = new System.Drawing.Size(134, 52);
             this.btnClose.TabIndex = 19;
             this.btnClose.Text = "CLOSE";
             this.btnClose.UseVisualStyleBackColor = true;
@@ -228,9 +254,9 @@
             // 
             // FRMMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(654, 376);
+            this.ClientSize = new System.Drawing.Size(981, 578);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnDLT);
             this.Controls.Add(this.btnEdit);
@@ -251,6 +277,7 @@
             this.Controls.Add(this.lblAuthor);
             this.Controls.Add(this.txtTitleData);
             this.Controls.Add(this.lblTitle);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "FRMMain";
             this.Text = "FRMMain";
             this.Load += new System.EventHandler(this.FRMMain_Load);

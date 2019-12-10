@@ -64,5 +64,65 @@ namespace MIS221_PA6
 
             }
         }
+
+        private void BtnRent_Click(object sender, EventArgs e)
+        {
+            Book myBook = (Book)lstBooks.SelectedItem;
+
+            myBook.copies--;
+            BookFile.SaveBook(myBook, cwid, "edit");
+            LoadList();
+        }
+
+        private void BtnReturn_Click(object sender, EventArgs e)
+        {
+            Book myBook = (Book)lstBooks.SelectedItem;
+
+            myBook.copies++;
+            BookFile.SaveBook(myBook, cwid, "edit");
+            LoadList();
+        }
+
+        private void BtnDLT_Click(object sender, EventArgs e)
+        {
+            Book myBook = (Book)lstBooks.SelectedItem;
+
+            DialogResult dialogResult = MessageBox.Show("Are you sure you would like to delete this movie?", "Delete", MessageBoxButtons.YesNo);
+
+             if(dialogResult == DialogResult.Yes)
+            {
+                BookFile.DeleteBook(myBook, cwid);
+                LoadList();
+            }
+        }
+
+        private void BtnEdit_Click(object sender, EventArgs e)
+        {
+            Book myBook = (Book)lstBooks.SelectedItem;
+            frmEdit myForm = new frmEdit(myBook, "edit", cwid);
+            if (myForm.ShowDialog() == DialogResult.OK)
+            {
+
+            }
+            else
+            {
+                LoadList();
+            }
+        }
+
+        private void BtnNew_Click(object sender, EventArgs e)
+        {
+            Book myBook = new Book();
+            frmEdit myForm = new frmEdit(myBook, "new", cwid);
+            if (myForm.ShowDialog() == DialogResult.OK)
+            {
+
+            }
+            else
+            {
+                LoadList();
+            }
+        }
     }
+    
 }
